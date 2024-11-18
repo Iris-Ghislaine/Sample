@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        background-image: url('cloud.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .container{
+        top: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        
+    }
+    .container nav ul li{
+        list-style-type: none;
+        display: block;
+        float: left;
+        padding: 10px;
+
+        
+        
+    }
+    .container nav ul li a{
+        text-decoration: none;
+        color: white;  
+        padding: 50px;
+
+      
+       
+    }
+    .logo{
+        color: black;
+        font-size: 34px;
+        margin-left:70px;
+    }
+    .register{
+        margin-right: 70px;
+        border: none;
+        border-radius: 5px;
+        background-color: blue;
+        padding: 10px 5px 10px 5px; 
+        color: white;
+    }
+    .register a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .home{
+        text-align:center ;
+        margin: 15% ;
+    }
+    .enjoy{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .explore{
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .visit{
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 10px 15px 10px; 
+        color: white;
+    }
+    .visit a{
+        text-decoration: none;
+        color: white;
+    }
+   
+</style>
+<body>
+    <div class="container">
+        <div class="logo"> Sky.</div>
+    <nav>
+     <ul>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#"> Explore</a></li>
+        <li><a href="#"> Contact</a></li>
+     </ul>
+    </nav>
+    <button class="register"><a href="#">Register</a></button>
+</div>
+<div class="home">
+    <p class="enjoy">Enjoy</p>
+    <p class="explore">Explore the world</p>
+    <button class="visit"><a href="#">visit Now</a></button>    
+</div>
+</body>
+</html>
